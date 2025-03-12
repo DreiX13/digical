@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pixel Calculator</title>
-  <link rel="stylesheet" href="design.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="mode-toggle">
-    <button id="modeBtn">🌙 Night Mode</button>
-  </div>
-
+  <div class="mode-btn" id="modeBtn">🌙 Night Mode</div>
   <div class="calc">
-    <div class="screen" id="screen">0</div>
-
-    <div class="keys">
-      <button class="btn clear" id="clear">C</button>
+    <div class="screen" id="scrn">0</div>
+    <div class="btns">
+      <button class="btn clear" id="clr">C</button>
       <button class="btn op">/</button>
       <button class="btn op">*</button>
       <button class="btn op">-</button>
-
       <button class="btn num">7</button>
       <button class="btn num">8</button>
       <button class="btn num">9</button>
       <button class="btn op">+</button>
-
       <button class="btn num">4</button>
       <button class="btn num">5</button>
       <button class="btn num">6</button>
-      <button class="btn equal" id="equal">=</button>
-
+      <button class="btn equal" id="eq">=</button>
       <button class="btn num">1</button>
       <button class="btn num">2</button>
       <button class="btn num">3</button>
-      <button class="btn num zero">0</button>
+      <div class="empty"></div>
+      <button class="btn zero num">0</button>
     </div>
   </div>
 
