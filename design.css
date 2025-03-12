@@ -192,18 +192,36 @@ body {
 
 @media screen and (max-width: 400px) {
   .calc {
-    width: 95%;
+    width: 320px;
     padding: 16px;
+  }
+
+  .btns {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
   }
 
   .btn {
     height: 60px;
+    font-size: 12px;
+  }
+
+  .zero {
+    grid-column: span 2;
+  }
+
+  #mode-btn {
     font-size: 10px;
+    padding: 10px 16px;
   }
 
   .screen {
-    font-size: 18px;
     height: 70px;
+    font-size: 18px;
     padding: 16px;
+  }
+
+  body {
+    padding: 10px;
   }
 }
