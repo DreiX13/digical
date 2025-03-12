@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pixel Calculator</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="design.css" />
 </head>
 <body>
-  <div class="mode-btn" id="modeBtn">🌙 Night Mode</div>
-  <div class="calc">
-    <div class="screen" id="scrn">0</div>
-    <div class="btns">
-      <button class="btn clear" id="clr">C</button>
-      <button class="btn op">/</button>
-      <button class="btn op">*</button>
-      <button class="btn op">-</button>
-      <button class="btn num">7</button>
-      <button class="btn num">8</button>
-      <button class="btn num">9</button>
-      <button class="btn op">+</button>
-      <button class="btn num">4</button>
-      <button class="btn num">5</button>
-      <button class="btn num">6</button>
-      <button class="btn equal" id="eq">=</button>
-      <button class="btn num">1</button>
-      <button class="btn num">2</button>
-      <button class="btn num">3</button>
-      <div class="empty"></div>
-      <button class="btn zero num">0</button>
+  <div class="wrap">
+    <button id="mode-btn">☀️ Light Mode</button>
+    <div class="calc dark" id="calc">
+      <div class="screen" id="screen">0</div>
+      <div class="btns">
+        <button class="btn op" id="clear">C</button>
+        <button class="btn op">/</button>
+        <button class="btn op">*</button>
+        <button class="btn op">-</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn op">+</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn eq" id="equal">=</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn zero">0</button>
+        <button class="btn">.</button>
+      </div>
     </div>
   </div>
-
-  <script src="script.js"></script>
+  <script src="CALCULATOR.js"></script>
 </body>
 </html>
